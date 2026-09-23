@@ -1,0 +1,324 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 2rem 1rem;
+  border: 0.1rem solid;
+}
+
+.skilline {
+  margin-bottom: 1rem;
+}
+.skilline span {
+  font-size: 2rem;
+  font-weight: 550;
+}
+.skilline nav {
+  font-size: 1rem;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.skilline nav a {
+  text-decoration: none;
+  color: black;
+}
+.skilline .white {
+  padding: 0.6rem 1rem;
+  border-radius: 1rem;
+  color: black;
+  background-color: grey;
+  margin-right: 1rem;
+}
+.skilline .brown {
+  padding: 0.6rem 1rem;
+  border-radius: 1rem;
+  color: white;
+  background-color: burlywood;
+}
+
+.webpage1 .webpage1-content .studying {
+  margin-bottom: 1rem;
+}
+.webpage1 .webpage1-content .studying h1 {
+  font-size: 1.5rem;
+  margin-bottom: 0.6rem;
+}
+.webpage1 .webpage1-content .studying p {
+  font-size: 1rem;
+  margin-bottom: 0.6rem;
+}
+.webpage1 .webpage1-content .studying .button1 {
+  display: flex;
+  gap: 0.3rem;
+}
+.webpage1 .webpage1-content .studying .button1 .join {
+  padding: 0.3rem 0.6rem;
+  border-radius: 1rem;
+  color: black;
+  background-color: burlywood;
+  margin-right: 1rem;
+}
+.webpage1 .webpage1-content .studying .button1 button {
+  padding: 0.3rem 0.6rem;
+  border-radius: 50%;
+  background-color: gray;
+}
+.webpage1 .webpage1-content .studying .button1 span {
+  font-size: 0.9rem;
+}
+.webpage1 .webpage1-content .image-list1 {
+  margin-bottom: 1rem;
+}
+.webpage1 .webpage1-content .trusted {
+  font-size: 0.9rem;
+}
+.webpage1 .webpage1-content .image-list12 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.webpage2 {
+  margin-bottom: 1.5rem;
+}
+.webpage2 h2 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+.webpage2 p {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+.webpage2 .card {
+  display: flex;
+  flex-direction: column;
+}
+.webpage2 .card h3 {
+  font-size: 0.9rem;
+}
+.webpage2 .card p {
+  font-size: 0.6rem;
+}
+
+.webpage3 {
+  margin-bottom: 1.5rem;
+}
+.webpage3 h2 {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+.webpage3 p {
+  font-size: 0.6rem;
+  margin-bottom: 1rem;
+}
+.webpage3 .webpage3-card snap {
+  font-size: 0.7rem;
+  margin-bottom: 1rem;
+}
+.webpage3 .webpage3-card button {
+  padding: 0.4rem 0.9rem;
+  border-radius: 0.6rem;
+  background-color: palegoldenrod;
+}
+
+.webpage4 {
+  margin-bottom: 1.5rem;
+}
+.webpage4 h2 {
+  font-size: 1rem;
+}
+.webpage4 p {
+  font-size: 0.7rem;
+}
+.webpage4 span {
+  font-size: 0.5rem;
+  text-decoration: underline;
+}
+.webpage4 img {
+  margin-bottom: 1rem;
+}
+
+.webpage5 {
+  margin-bottom: 1.5rem;
+}
+.webpage5 h2 {
+  font-size: 1rem;
+}
+.webpage5 p {
+  font-size: 0.8rem;
+}
+.webpage5 button {
+  padding: 0.4rem 0.9rem;
+  border-radius: 0.6rem;
+  background-color: palegoldenrod;
+}
+.webpage5 .card5 {
+  margin-bottom: 1rem;
+}
+
+.webpage6 {
+  margin-bottom: 1.5rem;
+}
+.webpage6 h2 {
+  font-size: 1rem;
+}
+.webpage6 p {
+  font-size: 0.7rem;
+  margin-bottom: 1rem;
+}
+.webpage6 img {
+  margin-bottom: 1rem;
+}
+
+.webpage7 {
+  margin-bottom: 1.5rem;
+}
+.webpage7 button {
+  padding: 0.4rem 0.9rem;
+  border-radius: 0.6rem;
+  background-color: palegoldenrod;
+}
+.webpage7 h2 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.webpage7 img {
+  margin-bottom: 1rem;
+}
+.webpage7 p {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.webpage8 {
+  margin-bottom: 1.5rem;
+}
+.webpage8 h2 {
+  font-size: 1rem;
+}
+.webpage8 p {
+  font-size: 0.7rem;
+  margin-bottom: 1rem;
+}
+.webpage8 img {
+  margin-bottom: 1rem;
+}
+
+.webpage9 {
+  margin-bottom: 1.5rem;
+}
+.webpage9 h2 {
+  font-size: 1rem;
+}
+.webpage9 p {
+  font-size: 0.7rem;
+  margin-bottom: 1rem;
+}
+.webpage9 button {
+  padding: 0.4rem 0.9rem;
+  border-radius: 0.6rem;
+  background-color: palegoldenrod;
+  margin-bottom: 1rem;
+}
+
+.webpage10 {
+  margin-bottom: 1.5rem;
+}
+.webpage10 .imagelist-10 {
+  display: flex;
+  flex-direction: column;
+}
+.webpage10 img {
+  margin-bottom: 1rem;
+}
+.webpage10 span {
+  font-size: 0.6rem;
+}
+.webpage10 h2 {
+  font-size: 0.8rem;
+}
+.webpage10 p {
+  font-size: 0.7rem;
+  margin-bottom: 1rem;
+}
+.webpage10 button {
+  padding: 0.4rem 0.9rem;
+  border-radius: 0.6rem;
+  background-color: palegoldenrod;
+}
+
+.webpage11 {
+  margin-bottom: 1.5rem;
+}
+.webpage11 span {
+  font-size: 0.6rem;
+}
+.webpage11 h2 {
+  font-size: 0.8rem;
+}
+.webpage11 p {
+  font-size: 0.7rem;
+  margin-bottom: 1rem;
+}
+.webpage11 button {
+  padding: 0.4rem 0.9rem;
+  border-radius: 0.6rem;
+  background-color: palegoldenrod;
+  margin-bottom: 1rem;
+}
+.webpage11 span {
+  font-size: 0.6rem;
+}
+
+.webpage12 {
+  margin-bottom: 1.5rem;
+}
+.webpage12 .content12 {
+  display: flex;
+  flex-direction: column;
+}
+.webpage12 span {
+  font-size: 0.6rem;
+  text-decoration: underline;
+}
+.webpage12 h2 {
+  font-size: 0.8rem;
+}
+.webpage12 p {
+  font-size: 0.7rem;
+  margin-bottom: 1rem;
+}
+.webpage12 button {
+  padding: 0.4rem 0.9rem;
+  border-radius: 0.6rem;
+  background-color: palegoldenrod;
+  margin-bottom: 1rem;
+}
+.webpage12 span {
+  font-size: 0.6rem;
+}
+
+footer p {
+  font-size: 0.7rem;
+  margin-bottom: 1rem;
+}
+footer button {
+  padding: 0.4rem 0.9rem;
+  border-radius: 0.6rem;
+  background-color: palegoldenrod;
+  margin-bottom: 1rem;
+}
+footer span {
+  font-size: 0.6rem;
+}/*# sourceMappingURL=mystyles.css.map */
