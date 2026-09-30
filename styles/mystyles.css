@@ -240,7 +240,8 @@ body {
   }
 }
 
-.section9{
+.section9 {
+  margin-bottom: 2rem;
   h2 {
     font-size: 1rem;
     margin-bottom: 1rem;
@@ -248,163 +249,75 @@ body {
   p {
     font-size: 0.8rem;
     margin-bottom: 1rem;
+  }
+  .column1 {
+    button {
+      border-radius: 1rem;
+      padding: 0.5rem 1rem;
+      font-size: 0.5rem;
+      background-color: yellow;
+      color: #111;
+      margin-bottom: 1rem;
+    }
+    h3 {
+      font-size: 0.8rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 0.8rem;
+      margin-bottom: 1rem;
+    }
+    span {
+      font-size: 0.7rem;
+      margin-bottom: 1rem;
+      text-decoration: underline;
+    }
+  }
+  .column2 {
+    h3 {
+      font-size: 0.8rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 0.8rem;
+      margin-bottom: 1rem;
+    }
+  }
 }
-
-
-
-
-.webpage6 {
-  margin-bottom: 1.5rem;
+footer {
+  .head {
+    display: flex;
+    flex-direction: row;
+    h2 {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+    h3 {
+      font-size: 0.7rem;
+      margin-bottom: 1rem;
+    }
+  }
+  p {
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+  }
+  .button {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-bottom: 1rem;
+    .transparent {
+      border-radius: 1rem;
+      padding: 0.5rem 1rem;
+      font-size: 0.5rem;
+      color: #111;
+    }
+    .blue {
+      border-radius: 1rem;
+      padding: 0.5rem 1rem;
+      font-size: 0.5rem;
+      background-color: blue;
+      color: #fff;
+    }
+  }
 }
-.webpage6 h2 {
-  font-size: 1rem;
-}
-.webpage6 p {
-  font-size: 0.7rem;
-  margin-bottom: 1rem;
-}
-.webpage6 img {
-  margin-bottom: 1rem;
-}
-
-.webpage7 {
-  margin-bottom: 1.5rem;
-}
-.webpage7 button {
-  padding: 0.4rem 0.9rem;
-  border-radius: 0.6rem;
-  background-color: palegoldenrod;
-}
-.webpage7 h2 {
-  font-size: 1rem;
-  margin-bottom: 1rem;
-}
-.webpage7 img {
-  margin-bottom: 1rem;
-}
-.webpage7 p {
-  font-size: 0.8rem;
-  margin-bottom: 1rem;
-}
-
-.webpage8 {
-  margin-bottom: 1.5rem;
-}
-.webpage8 h2 {
-  font-size: 1rem;
-}
-.webpage8 p {
-  font-size: 0.7rem;
-  margin-bottom: 1rem;
-}
-.webpage8 img {
-  margin-bottom: 1rem;
-}
-
-.webpage9 {
-  margin-bottom: 1.5rem;
-}
-.webpage9 h2 {
-  font-size: 1rem;
-}
-.webpage9 p {
-  font-size: 0.7rem;
-  margin-bottom: 1rem;
-}
-.webpage9 button {
-  padding: 0.4rem 0.9rem;
-  border-radius: 0.6rem;
-  background-color: palegoldenrod;
-  margin-bottom: 1rem;
-}
-
-.webpage10 {
-  margin-bottom: 1.5rem;
-}
-.webpage10 .imagelist-10 {
-  display: flex;
-  flex-direction: column;
-}
-.webpage10 img {
-  margin-bottom: 1rem;
-}
-.webpage10 span {
-  font-size: 0.6rem;
-}
-.webpage10 h2 {
-  font-size: 0.8rem;
-}
-.webpage10 p {
-  font-size: 0.7rem;
-  margin-bottom: 1rem;
-}
-.webpage10 button {
-  padding: 0.4rem 0.9rem;
-  border-radius: 0.6rem;
-  background-color: palegoldenrod;
-}
-
-.webpage11 {
-  margin-bottom: 1.5rem;
-}
-.webpage11 span {
-  font-size: 0.6rem;
-}
-.webpage11 h2 {
-  font-size: 0.8rem;
-}
-.webpage11 p {
-  font-size: 0.7rem;
-  margin-bottom: 1rem;
-}
-.webpage11 button {
-  padding: 0.4rem 0.9rem;
-  border-radius: 0.6rem;
-  background-color: palegoldenrod;
-  margin-bottom: 1rem;
-}
-.webpage11 span {
-  font-size: 0.6rem;
-}
-
-.webpage12 {
-  margin-bottom: 1.5rem;
-}
-.webpage12 .content12 {
-  display: flex;
-  flex-direction: column;
-}
-.webpage12 span {
-  font-size: 0.6rem;
-  text-decoration: underline;
-}
-.webpage12 h2 {
-  font-size: 0.8rem;
-}
-.webpage12 p {
-  font-size: 0.7rem;
-  margin-bottom: 1rem;
-}
-.webpage12 button {
-  padding: 0.4rem 0.9rem;
-  border-radius: 0.6rem;
-  background-color: palegoldenrod;
-  margin-bottom: 1rem;
-}
-.webpage12 span {
-  font-size: 0.6rem;
-}
-
-footer p {
-  font-size: 0.7rem;
-  margin-bottom: 1rem;
-}
-footer button {
-  padding: 0.4rem 0.9rem;
-  border-radius: 0.6rem;
-  background-color: palegoldenrod;
-  margin-bottom: 1rem;
-}
-footer span {
-  font-size: 0.6rem;
-} /*# sourceMappingURL=mystyles.css.map */
