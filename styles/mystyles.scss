@@ -6,324 +6,454 @@
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
 }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
   padding: 2rem 1rem;
-  // background-color: red;
-  border: 0.1rem solid;
 }
-
-.skilline {
-  margin-bottom: 1rem;
-  span {
-    font-size: 2rem;
-    font-weight: 550;
-  }
-  nav {
-    font-size: 1rem;
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 1rem;
-    a {
+.section1 {
+  .navigation {
+    span {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    nav {
+      font-size: 1rem;
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+    nav a {
       text-decoration: none;
       color: black;
     }
-  }
-  .white {
-    padding: 0.6rem 1rem;
-    border-radius: 1rem;
-    color: black;
-    background-color: grey;
-    margin-right: 1rem;
-  }
-  .brown {
-    padding: 0.6rem 1rem;
-    border-radius: 1rem;
-    color: white;
-    background-color: burlywood;
-  }
-}
-.webpage1 {
-  .webpage1-content {
-    .studying {
+    .white {
+      padding: 0.6rem 1rem;
+      border-radius: 1rem;
+      color: black;
+      background-color: grey;
+      margin-right: 1rem;
+    }
+    .brown {
+      padding: 0.6rem 1rem;
+      border-radius: 1rem;
+      color: white;
+      background-color: burlywood;
       margin-bottom: 1rem;
-      h1 {
-        font-size: 1.5rem;
-        margin-bottom: 0.6rem;
+    }
+  }
+  .content {
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.6rem;
+    }
+    p {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+    .buttons {
+      .join {
+        padding: 0.25rem 0.5rem;
+        border-radius: 1rem;
+        color: black;
+        background-color: burlywood;
       }
-      p {
-        font-size: 1rem;
-        margin-bottom: 0.6rem;
-      }
-      .button1 {
+      .watch {
         display: flex;
-        gap: 0.3rem;
-        .join {
-          padding: 0.3rem 0.6rem;
-          border-radius: 1rem;
-          color: black;
-          background-color: burlywood;
-          margin-right: 1rem;
+        flex-direction: row;
+        img {
+          width: 25%;
         }
-        button {
-          padding: 0.3rem 0.6rem;
-          border-radius: 50%;
-          background-color: gray;
-        }
-        span {
-          font-size: 0.9rem;
+        h3 {
+          font-size: 0.6rem;
         }
       }
     }
-    .image-list1 {
+  }
+  .image-card {
+    .icon {
+      width: 20%;
+    }
+    .box {
+      box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+      padding: 1rem;
+      img {
+        width: 20%;
+      }
+      button {
+        padding: 0.5rem 1rem;
+        border-radius: 1rem;
+        color: black;
+        background-color: red;
+      }
+    }
+    h2 {
+      font-size: 1rem;
       margin-bottom: 1rem;
     }
-    .trusted {
-      font-size: 0.9rem;
-    }
-    .image-list12 {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      justify-content: space-between;
-      margin-bottom: 2rem;
+    p {
+      font-size: 0.8rem;
+      margin-bottom: 1rem;
     }
   }
 }
-.webpage2 {
-  margin-bottom: 1.5rem;
+
+.section2 {
   h2 {
-    font-size: 1.3rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  .image-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 50%;
+    margin-bottom: 1rem;
+  }
+}
+
+.section3 {
+  h2 {
+    font-size: 1rem;
     margin-bottom: 1rem;
   }
   p {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+  }
+  .card {
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    h3 {
+      font-size: 0.8rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 0.7rem;
+      margin-bottom: 1rem;
+    }
+    img {
+      width: 25%;
+    }
+  }
+}
+
+.section4 {
+  h2 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  p {
+    font-size: 0.7rem;
     margin-bottom: 1rem;
   }
 
   .card {
-    display: flex;
-    flex-direction: column;
-
-    h3 {
-      font-size: 0.9rem;
+    .spanbtn {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
     }
-    p {
-      font-size: 0.6rem;
+    span {
+      font-size: 0.7rem;
+    }
+    .border {
+      border-radius: 1rem;
+      padding: 0.5rem 1rem;
+      font-size: 0.5rem;
+      border: 2px solid white;
+    }
+    .blue {
+      border-radius: 1rem;
+      padding: 0.5rem 1rem;
+      background-color: blue;
+      font-size: 0.5rem;
     }
   }
 }
 
-.webpage3 {
-  margin-bottom: 1.5rem;
+.section5 {
   h2 {
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin-bottom: 1rem;
   }
   p {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     margin-bottom: 1rem;
   }
-  .webpage3-card {
-    snap {
-      font-size: 0.7rem;
+  span {
+    font-size: 0.7rem;
+    text-decoration: underline;
+    margin-bottom: 1rem;
+  }
+}
+
+.section6 {
+  .row1 {
+    h2 {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 0.8rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .row2 {
+    .card-column1 {
+      .blue {
+        border-radius: 1rem;
+        padding: 0.5rem 1rem;
+        background-color: blue;
+        font-size: 0.5rem;
+      }
+      .red {
+        border-radius: 1rem;
+        padding: 0.5rem 1rem;
+        background-color: red;
+        font-size: 0.5rem;
+      }
+    }
+    .card-column2 {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .card-column3 {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      h2 {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+      }
+      .card {
+        p {
+          font-size: 0.8rem;
+          margin-bottom: 1rem;
+        }
+        img {
+          width: 25%;
+        }
+      }
+    }
+  }
+
+  .row3 {
+    h2 {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 0.8rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .row4 {
+    h2 {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 0.8rem;
+      margin-bottom: 1rem;
+    }
+
+    button {
+      border-radius: 1rem;
+      padding: 0.5rem 1rem;
+      font-size: 0.5rem;
+      background-color: blue;
+      color: yellow;
+    }
+  }
+
+  .row5 {
+    h2 {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 0.8rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .row6 {
+    h2 {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 0.8rem;
       margin-bottom: 1rem;
     }
     button {
-      padding: 0.4rem 0.9rem;
-      border-radius: 0.6rem;
-      background-color: palegoldenrod;
+      border-radius: 1rem;
+      padding: 0.5rem 1rem;
+      font-size: 0.5rem;
+      background-color: blue;
+      color: yellow;
     }
   }
 }
 
-.webpage4 {
-  margin-bottom: 1.5rem;
+.section7 {
+  .image-list {
+    width: 50%;
+  }
+  .content {
+    span {
+      font-size: 0.7rem;
+      margin-bottom: 1rem;
+    }
+    h2 {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+      .yellow {
+        color: yellow;
+        font-size: 1rem;
+      }
+    }
+    p {
+      font-size: 0.8rem;
+      margin-bottom: 1rem;
+    }
+    button {
+      border-radius: 1rem;
+      padding: 0.5rem 1rem;
+      font-size: 0.5rem;
+      border: 2px slod yellow;
+      color: yellow;
+    }
+  }
+}
+
+.section8 {
+  span {
+    font-size: 0.7rem;
+    margin-bottom: 1rem;
+  }
   h2 {
     font-size: 1rem;
+    margin-bottom: 1rem;
   }
   p {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
   }
-  span {
+  button {
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
     font-size: 0.5rem;
-    text-decoration: underline;
+    border: 2px slod yellowgreen;
+    color: yellow;
   }
-  img {
+  .box {
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+    padding: 1rem;
     margin-bottom: 1rem;
+    .icons {
+      width: 25%;
+    }
   }
 }
 
-.webpage5 {
-  margin-bottom: 1.5rem;
+.section9 {
+  margin-bottom: 2rem;
   h2 {
     font-size: 1rem;
-  }
-  p {
-    font-size: 0.8rem;
-  }
-  button {
-    padding: 0.4rem 0.9rem;
-    border-radius: 0.6rem;
-    background-color: palegoldenrod;
-  }
-  .card5 {
-    margin-bottom: 1rem;
-  }
-}
-
-.webpage6 {
-  margin-bottom: 1.5rem;
-  h2 {
-    font-size: 1rem;
-  }
-  p {
-    font-size: 0.7rem;
-    margin-bottom: 1rem;
-  }
-  img {
-    margin-bottom: 1rem;
-  }
-}
-
-.webpage7 {
-  margin-bottom: 1.5rem;
-  button {
-    padding: 0.4rem 0.9rem;
-    border-radius: 0.6rem;
-    background-color: palegoldenrod;
-  }
-  h2 {
-    font-size: 1rem;
-    margin-bottom: 1rem;
-  }
-
-  img {
     margin-bottom: 1rem;
   }
   p {
     font-size: 0.8rem;
     margin-bottom: 1rem;
   }
-}
-.webpage8 {
-  margin-bottom: 1.5rem;
-  h2 {
-    font-size: 1rem;
+  .column1 {
+    button {
+      border-radius: 1rem;
+      padding: 0.5rem 1rem;
+      font-size: 0.5rem;
+      background-color: yellow;
+      color: #111;
+      margin-bottom: 1rem;
+    }
+    h3 {
+      font-size: 0.8rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 0.8rem;
+      margin-bottom: 1rem;
+    }
+    span {
+      font-size: 0.7rem;
+      margin-bottom: 1rem;
+      text-decoration: underline;
+    }
   }
-  p {
-    font-size: 0.7rem;
-    margin-bottom: 1rem;
-  }
-  img {
-    margin-bottom: 1rem;
-  }
-}
-.webpage9 {
-  margin-bottom: 1.5rem;
-  h2 {
-    font-size: 1rem;
-  }
-  p {
-    font-size: 0.7rem;
-    margin-bottom: 1rem;
-  }
-  button {
-    padding: 0.4rem 0.9rem;
-    border-radius: 0.6rem;
-    background-color: palegoldenrod;
-    margin-bottom: 1rem;
-  }
-}
-.webpage10 {
-  margin-bottom: 1.5rem;
-  .imagelist-10 {
-    display: flex;
-    flex-direction: column;
-  }
-  img {
-    margin-bottom: 1rem;
-  }
-  span {
-    font-size: 0.6rem;
-  }
-  h2 {
-    font-size: 0.8rem;
-  }
-  p {
-    font-size: 0.7rem;
-    margin-bottom: 1rem;
-  }
-  button {
-    padding: 0.4rem 0.9rem;
-    border-radius: 0.6rem;
-    background-color: palegoldenrod;
+  .column2 {
+    h3 {
+      font-size: 0.8rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 0.8rem;
+      margin-bottom: 1rem;
+    }
   }
 }
-.webpage11 {
-  margin-bottom: 1.5rem;
-  span {
-    font-size: 0.6rem;
-  }
-  h2 {
-    font-size: 0.8rem;
-  }
-  p {
-    font-size: 0.7rem;
-    margin-bottom: 1rem;
-  }
-  button {
-    padding: 0.4rem 0.9rem;
-    border-radius: 0.6rem;
-    background-color: palegoldenrod;
-    margin-bottom: 1rem;
-  }
-  span {
-    font-size: 0.6rem;
-  }
-}
-.webpage12 {
-  margin-bottom: 1.5rem;
-  .content12 {
-    display: flex;
-    flex-direction: column;
-  }
-  span {
-    font-size: 0.6rem;
-    text-decoration: underline;
-  }
-  h2 {
-    font-size: 0.8rem;
-  }
-  p {
-    font-size: 0.7rem;
-    margin-bottom: 1rem;
-  }
-  button {
-    padding: 0.4rem 0.9rem;
-    border-radius: 0.6rem;
-    background-color: palegoldenrod;
-    margin-bottom: 1rem;
-  }
-  span {
-    font-size: 0.6rem;
-  }
-}
-
 footer {
+  background-color: blue;
+  color: #fff;
+  padding: 1rem;
+  .head {
+    display: flex;
+    flex-direction: row;
+    h2 {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+    h3 {
+      font-size: 0.7rem;
+      margin-bottom: 1rem;
+    }
+  }
   p {
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+  }
+  .button {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-bottom: 1rem;
+    .transparent {
+      border-radius: 1rem;
+      padding: 0.5rem 1rem;
+      font-size: 0.5rem;
+      color: #111;
+    }
+    .blue {
+      border-radius: 1rem;
+      padding: 0.5rem 1rem;
+      font-size: 0.5rem;
+      background-color: red;
+      color: #fff;
+    }
+  }
+  h4 {
     font-size: 0.7rem;
     margin-bottom: 1rem;
   }
-  button {
-    padding: 0.4rem 0.9rem;
-    border-radius: 0.6rem;
-    background-color: palegoldenrod;
+  h5 {
+    font-size: 0.7rem;
     margin-bottom: 1rem;
-  }
-  span {
-    font-size: 0.6rem;
   }
 }
