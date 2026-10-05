@@ -559,6 +559,11 @@ body {
       color: #111;
       margin-bottom: 1rem;
     }
+    .news {
+      position: relative;
+      bottom: 50px;
+      left: 150px;
+    }
     h3 {
       font-size: 0.8rem;
       margin-bottom: 1rem;
@@ -574,7 +579,13 @@ footer {
   color: #4c4d66;
   padding: 1rem;
   .top {
+    .fot-logo {
+      position: absolute;
+      down: 1px;
+      width: 8%;
+    }
     display: flex;
+    justify-content: center;
     gap: 2rem;
     color: #fff;
     h2 {
