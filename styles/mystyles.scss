@@ -88,9 +88,6 @@ body {
     }
   }
   .image-card {
-    .icon {
-      width: 20%;
-    }
     .box {
       box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
       padding: 1rem;
@@ -106,14 +103,45 @@ body {
         color: #fff;
         background-color: #d8587e;
       }
+      h2 {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+      }
+      p {
+        font-size: 0.8rem;
+        margin-bottom: 1rem;
+      }
     }
-    h2 {
-      font-size: 1rem;
-      margin-bottom: 1rem;
+    .upr1 {
+      position: absolute;
+      bottom: -100px;
+
+      right: -70px;
+      img {
+        width: 30%;
+      }
     }
-    p {
-      font-size: 0.8rem;
-      margin-bottom: 1rem;
+    .upr2 {
+      position: absolute;
+      bottom: -100px;
+      img {
+        width: 30%;
+      }
+    }
+    .mr {
+      position: absolute;
+      bottom: -300px;
+      right: -100px;
+      img {
+        width: 30%;
+      }
+    }
+    .lr {
+      position: absolute;
+      bottom: -300px;
+      img {
+        width: 30%;
+      }
     }
   }
 }
@@ -202,8 +230,15 @@ body {
       font-size: 0.5rem;
     }
   }
+  .spanbtn1 {
+    position: absolute;
+    bottom: -1550px;
+  }
+  .spanbtn2 {
+    position: absolute;
+    bottom: -1750px;
+  }
 }
-
 .section5 {
   margin-bottom: 2rem;
   .column1 {
@@ -218,6 +253,13 @@ body {
           font-size: 1rem;
         }
       }
+      .circle1 {
+        position: relative;
+        bottom: -24px;
+        img {
+          width: 9%;
+        }
+      }
     }
     .image-card2 {
       p {
@@ -226,6 +268,12 @@ body {
       }
       img {
         width: 10%;
+      }
+      .circle2 {
+        position: relative;
+        img {
+          width: 5%;
+        }
       }
     }
     .span2 {
@@ -568,4 +616,8 @@ footer {
     font-size: 0.7rem;
     margin-bottom: 1rem;
   }
+}
+
+/* Styles for screens 992px and up */
+@media (min-width: 540px) {
 }
