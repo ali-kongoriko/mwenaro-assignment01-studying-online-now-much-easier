@@ -681,6 +681,154 @@ footer {
   }
 }
 
-/* Styles for screens 992px and up */
+/* Styles for screens 540px and up */
 @media (min-width: 540px) {
+  .section1 {
+    .navigation {
+      .logo {
+        img {
+          width: 5%;
+        }
+        span {
+          font-size: 2rem;
+        }
+      }
+      nav {
+        gap: 5rem;
+      }
+    }
+    .content {
+      .buttons {
+        display: flex;
+        gap: 2rem;
+        .join {
+          padding: 1rem 2rem;
+          border-radius: 2rem;
+        }
+        .watch {
+          justify-content: center;
+          align-items: center;
+          img {
+            width: 25%;
+          }
+          h3 {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+    .image-card {
+      .upr1 {
+        right: -10px;
+      }
+      .upr2 {
+        bottom: -100px;
+
+        img {
+          width: 30%;
+        }
+        h2 {
+          font-size: 1rem;
+        }
+        p {
+          font-size: 0.5rem;
+        }
+      }
+      .mr {
+        bottom: -250px;
+        right: 80px;
+        img {
+          width: 30%;
+        }
+        h2 {
+          font-size: 1rem;
+        }
+        p {
+          font-size: 0.5rem;
+        }
+      }
+      .lr {
+        bottom: -200px;
+        img {
+          width: 50%;
+        }
+      }
+    }
+  }
+  .section2 {
+    h2 {
+      font-size: 1.5rem;
+    }
+    .image-list {
+      padding: 1rem;
+      width: 90%;
+    }
+  }
+  .section3 {
+    h2 {
+      font-size: 1.5rem;
+    }
+    p {
+      font-size: 0.8rem;
+    }
+  }
+  .section4 {
+    .card {
+      span {
+        font-size: 0.7rem;
+      }
+      .border {
+        border-radius: 1rem;
+        padding: 0.5rem 1rem;
+        font-size: 0.5rem;
+        background-color: none;
+        border: 2px solid white;
+      }
+      .blue {
+        border-radius: 1rem;
+        padding: 0.5rem 1rem;
+        background-color: #31bbe8;
+        color: #fff;
+        font-size: 0.5rem;
+      }
+    }
+    .spanbtn1 {
+      bottom: -2050px;
+      left: 200px;
+    }
+    .spanbtn2 {
+      bottom: -2400px;
+      left: 200px;
+    }
+  }
+  .section5 {
+    .column1 {
+      .image-card1 {
+        img {
+          width: 5%;
+          position: relative;
+          z-index: -1;
+          bottom: -15px;
+        }
+        h2 {
+          font-size: 1.5rem;
+          .span1 {
+            font-size: 1.5rem;
+          }
+        }
+        .circle1 {
+          position: relative;
+          bottom: -24px;
+          img {
+            width: 9%;
+          }
+        }
+      }
+      .image-card2 {
+        img {
+          width: 10%;
+        }
+      }
+    }
+  }
 }
