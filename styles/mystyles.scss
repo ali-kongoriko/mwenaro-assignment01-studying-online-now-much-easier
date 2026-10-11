@@ -12,6 +12,9 @@ img {
 body {
   font-family: Arial, Helvetica, sans-serif;
   padding: 0.5rem;
+  // background-color: #d8587e;
+  border: 2px solid;
+  max-width: 100%;
 }
 .section1 {
   background-color: #fff3e4;
@@ -1081,4 +1084,70 @@ footer {
 
 /* Styles for screens 992px and up */
 @media (min-width: 992px) {
+  .section1 {
+    .navigation {
+      .logo {
+        img {
+          width: 6%;
+        }
+      }
+      nav {
+        gap: 7rem;
+        font-size: 2rem;
+      }
+    }
+    .content {
+      .buttons {
+        .watch {
+          img {
+            width: 50%;
+          }
+        }
+      }
+    }
+    .image-card {
+      .upr1 {
+        right: 20px;
+      }
+      .upr2 {
+        bottom: -150px;
+      }
+    }
+  }
+  .section4 {
+    .spanbtn1 {
+      bottom: -3200px;
+      left: 400px;
+    }
+    .spanbtn2 {
+      bottom: -2500px;
+      left: 400px;
+    }
+  }
+}
+/* Styles for screens 1200px and up */
+@media (min-width: 1200px) {
+  .section1 {
+    .navigation {
+      .logo {
+        img {
+          width: 5%;
+        }
+      }
+      nav {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+  .section4 {
+    .spanbtn1 {
+      bottom: 1000px;
+      left: 400px;
+    }
+    .spanbtn2 {
+      bottom: 2500px;
+      left: 400px;
+    }
+  }
 }
