@@ -973,3 +973,112 @@ footer {
     }
   }
 }
+
+/* Styles for screens 768px and up */
+@media (min-width: 768px) {
+  .section1 {
+    .navigation {
+      .logo {
+        img {
+          width: 7%;
+        }
+        span {
+          font-size: 3rem;
+        }
+      }
+      nav {
+        gap: 6rem;
+        font-size: 1.5rem;
+      }
+    }
+    .content {
+      .buttons {
+        .watch {
+          img {
+            width: 50%;
+          }
+        }
+      }
+    }
+    .image-card {
+      .upr1 {
+        right: -10px;
+      }
+      .upr2 {
+        bottom: -150px;
+
+        img {
+          width: 50%;
+        }
+        h2 {
+          font-size: 1.5rem;
+        }
+        p {
+          font-size: 1rem;
+        }
+      }
+      .mr {
+        bottom: -350px;
+        right: 80px;
+        img {
+          width: 30%;
+        }
+        h2 {
+          font-size: 1rem;
+        }
+        p {
+          font-size: 0.5rem;
+        }
+      }
+      .lr {
+        bottom: -400px;
+        img {
+          width: 50%;
+        }
+      }
+    }
+  }
+
+  .section3 {
+    h2 {
+      font-size: 2rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+    .image-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .section4 {
+    .spanbtn1 {
+      bottom: -3000px;
+      left: 300px;
+    }
+    .spanbtn2 {
+      bottom: -2500px;
+      left: 300px;
+    }
+  }
+  .section9 {
+    h2 {
+      font-size: 1.5rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+    .column2 {
+      .news {
+        bottom: 100px;
+        left: 550px;
+      }
+    }
+  }
+}
+
+/* Styles for screens 992px and up */
+@media (min-width: 992px) {
+}
